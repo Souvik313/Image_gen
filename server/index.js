@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "https://image-gen-zrox.vercel.app/",
+    origin: "https://image-gen-zrox.vercel.app",
     credentials: true,
 }
 ));
