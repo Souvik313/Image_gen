@@ -75,7 +75,7 @@ const Home = () => {
                             {searchText ? (
                                 <RenderCards data={serachedResults} title="No search results found"/>
                             ) : (
-                                <RenderCards data={allPosts} title={allPosts.length > 0 ? "All posts" : "No posts yet" }/>
+                                <RenderCards data={allPosts} title={allPosts ? "All posts" : "No posts yet" }/>
                             )}
                         </div>
                     </>
